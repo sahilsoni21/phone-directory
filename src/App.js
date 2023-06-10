@@ -1,20 +1,11 @@
-function App() {
-  return (
-    <div >
-     return (
-   <Fragment>
-      <div>
-         Phone Directory
-      </div>
-      <button>Add</button>
-      <div>
-         <span>Name</span>
-         <span>Phone</span>
-      </div>
-   </Fragment>
-)
-    </div>
-  );
-}
+import React, { Component } from 'react';
+import Header from './Header.js';
 
-export default App;
+class App extends Component {
+  render() {
+    return (
+      <div>
+        <Header/>
+        <button>Add</button>
+        <div/>
+          <span>Name</span><br/>
